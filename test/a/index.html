@@ -2,32 +2,212 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Androidアプリダウンロード</title>
+    <meta name="robots" content="noindex, nofollow">
+    <title>特別アプリのインストール方法</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
+            font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
         }
-        .download-button {
-            padding: 15px 30px;
-            font-size: 18px;
-            background-color: #4CAF50;
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin: 10px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .download-btn {
+            display: inline-block;
+            background-color: #2ecc71;
             color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
+            padding: 12px 24px;
+            text-align: center;
             text-decoration: none;
+            font-size: 18px;
+            border-radius: 4px;
+            margin: 20px 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
-        .download-button:hover {
-            background-color: #45a049;
+        .download-btn:hover {
+            background-color: #27ae60;
+        }
+        .note {
+            background-color: #f8f9fa;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .step {
+            background-color: #f8f9fa;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        .faq-question {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .faq-answer {
+            margin-top: 5px;
+        }
+        .support {
+            background-color: #e8f4fc;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 30px;
         }
     </style>
 </head>
 <body>
-
+    <h1>特別アプリのインストール方法</h1>
+    
+    <p>このページでは、特別なAndroidアプリ（APKファイル）をお使いのスマートフォンにインストールする方法をご説明します。普段アプリをインストールするのに不慣れな方でも簡単に行えるよう、画像付きで手順を解説しています。</p>
+    
+    <h2>準備するもの</h2>
+    <ul>
+        <li>Androidスマートフォン</li>
+        <li>インターネット接続</li>
+    </ul>
+    
+    <h2>手順1: APKファイルをダウンロードする</h2>
+    <div class="step">
+        <ol>
+            <li>
+                以下のボタンをタップして、アプリファイル（APK）をダウンロードします。
+                <br>
+                <a href="#" class="download-btn">アプリをダウンロード</a>
+            </li>
+            <li>
+                ダウンロードが始まると、画面上部に通知が表示されます。
+                <br>
+                <img src="/api/placeholder/300/150" alt="ダウンロード通知">
+            </li>
+            <li>ダウンロードが完了するまで待ちます（通常は1分以内です）。</li>
+        </ol>
+    </div>
+    
+    <h2>手順2: ダウンロードしたAPKファイルを開く</h2>
+    <div class="step">
+        <ol>
+            <li>
+                ダウンロードが完了したら、通知をタップします。
+                <br>
+                <img src="/api/placeholder/300/150" alt="通知をタップ">
+            </li>
+            <li>
+                このとき「提供元不明のアプリ」に関する警告や設定画面が表示されます。これは正常な動作です。
+                <br>
+                <img src="/api/placeholder/300/150" alt="設定への誘導">
+            </li>
+        </ol>
+    </div>
+    
+    <h2>手順3: 不明なアプリのインストールを許可する</h2>
+    <div class="step">
+        <ol>
+            <li>
+                「設定」または「設定に移動」ボタンをタップします。
+                <br>
+                <img src="/api/placeholder/300/150" alt="設定に移動">
+            </li>
+            <li>
+                自動的に設定画面が開きます。「この提供元を許可」または「このアプリからのインストールを許可」をONにします。
+                <br>
+                <img src="/api/placeholder/300/150" alt="提供元を許可">
+            </li>
+            <li>
+                「戻る」ボタンをタップして前の画面に戻ります。
+                <br>
+                <img src="/api/placeholder/300/150" alt="戻るボタン">
+            </li>
+        </ol>
+        
+        <div class="note">
+            <strong>注意</strong>: 機種によって表示される画面や文言が異なる場合がありますが、基本的には「許可する」「ON」などを選択します。
+        </div>
+    </div>
+    
+    <h2>手順4: APKファイルをインストールする</h2>
+    <div class="step">
+        <ol>
+            <li>
+                設定画面から戻ると、自動的にインストール画面が表示されます。「インストール」ボタンをタップします。
+                <br>
+                <img src="/api/placeholder/300/150" alt="インストールボタン">
+            </li>
+            <li>
+                インストールが完了するまで待ちます（通常は30秒以内です）。
+                <br>
+                <img src="/api/placeholder/300/150" alt="インストール中">
+            </li>
+            <li>
+                「完了」または「開く」ボタンをタップします。
+                <br>
+                <img src="/api/placeholder/300/150" alt="完了ボタン">
+            </li>
+        </ol>
+    </div>
+    
+    <h2>手順5: アプリを使い始める</h2>
+    <div class="step">
+        <p>インストールが完了したら、ホーム画面またはアプリ一覧から新しくインストールしたアプリを探して、アイコンをタップすれば起動できます。</p>
+        <img src="/api/placeholder/80/80" alt="アプリアイコン">
+    </div>
+    
+    <h2>よくある質問</h2>
+    <div class="faq-item">
+        <div class="faq-question">Q: 「提供元不明のアプリ」の設定画面が表示されない場合は？</div>
+        <div class="faq-answer">A: 一部の機種では、手動で設定する必要があります。「設定」アプリを開き、「セキュリティ」または「プライバシー」から「提供元不明のアプリ」を許可してください。</div>
+    </div>
+    
+    <div class="faq-item">
+        <div class="faq-question">Q: インストールが失敗する場合は？</div>
+        <div class="faq-answer">A: スマートフォンの空き容量が十分にあるか確認してください。また、Android 8.0以降では、ブラウザアプリに対して「不明なアプリのインストール」を個別に許可する必要がある場合があります。</div>
+    </div>
+    
+    <div class="faq-item">
+        <div class="faq-question">Q: セキュリティ設定を変更するのは危険？</div>
+        <div class="faq-answer">A: このページからダウンロードするアプリは安全ですが、設定変更後は不明なソースからのアプリインストールが可能になります。アプリのインストール完了後、セキュリティ設定を元に戻すことをおすすめします。</div>
+    </div>
+    
+    <div class="faq-item">
+        <div class="faq-question">Q: アプリをアンインストールするには？</div>
+        <div class="faq-answer">A: アプリアイコンを長押しして「アンインストール」を選択するか、設定アプリから「アプリ」を選択し、該当アプリを選んでアンインストールできます。</div>
+    </div>
+    
+    <div class="faq-item">
+        <div class="faq-question">Q: インストール時に「ブロックされました」と表示される場合は？</div>
+        <div class="faq-answer">A: 「詳細」や「さらに表示」などのボタンをタップし、「インストールする」や「とにかくインストール」などのオプションを選択してください。</div>
+    </div>
+    
+    <div class="support">
+        <h2>サポート</h2>
+        <p>インストールについてわからないことがあれば、以下の連絡先までお問い合わせください。</p>
+        <p>メール: support@example.com<br>
+        電話: 03-1234-5678（平日10:00-17:00）</p>
+    </div>
+</body>
+</html>
     <h1>Androidアプリをダウンロード</h1>
     <p>下のボタンをクリックして、アプリをダウンロードしてください。</p>
     <p>(サイト内にapkを配置)</p>
